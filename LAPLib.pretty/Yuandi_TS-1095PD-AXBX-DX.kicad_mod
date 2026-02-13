@@ -1,0 +1,168 @@
+(footprint "Yuandi_TS-1095PD-AXBX-DX"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tactile button, THT, 6x6mm")
+	(property "Reference" "REF**"
+		(at 0 4 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "262bca1c-8dfe-4ef0-b4b3-9e61c69235d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Push"
+		(at 0.5 10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28adb784-34fc-4666-84df-bcb3d370f17e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.5 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9938ba8e-5b13-4339-83b3-a665e3a42236")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Push button switch, generic, two pins"
+		(at 0 8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13444f64-6738-470f-a2a6-44b5cc9d669b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB Part #" "C2834915"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89c13948-9fa3-47f1-b500-3616fbc0c142")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1caf1aba-c35a-4481-943c-3c5492e3e406")
+	)
+	(fp_line
+		(start -3 -0.8)
+		(end -3 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4b7df010-6a0a-47a2-ad4c-57a8cd8ed00f")
+	)
+	(fp_line
+		(start -3 3)
+		(end 3 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a3b941d3-77f5-4037-8483-7eb1dc14aae4")
+	)
+	(fp_line
+		(start 3 -0.8)
+		(end 3 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a854e83e-9154-4953-b329-e23c760203d1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3c6b65a7-ce4c-43c1-863d-861063aa3053")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.25 -1.95)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "745d46e3-5df0-42f4-9c37-43d32243278a")
+	)
+	(pad "1" thru_hole circle
+		(at 3.25 -1.95)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "45f55b9c-2f60-483d-b2d6-6af3aa50707b")
+	)
+	(pad "2" thru_hole circle
+		(at -3.25 1.95)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f27f113c-a24d-4e19-a8ab-04ae2db4f73a")
+	)
+	(pad "2" thru_hole circle
+		(at 3.25 1.95)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "07f7227d-260b-498d-b260-fb7cda2af58c")
+	)
+	(embedded_fonts no)
+	(model "/Users/stefanopassiglia/Documents/KiCad/8.0/3dmodels/TS-1095PD-A17B3-D2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

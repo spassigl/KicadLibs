@@ -1,0 +1,194 @@
+(footprint "ALPS_SSSF012100"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Slide switch, SPDT. 9mm actuator length")
+	(property "Reference" "REF**"
+		(at -0.03 5.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4219305e-ac17-42ce-804d-56a5d48bf7d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT"
+		(at 0 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b6bfd75-d4f7-438e-9652-06556f577ed9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2110151630_XKB-Connection-SS-12D10L9_C319011.pdf"
+		(at 0.2 7.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71f19ed1-ef1f-4b4f-9614-5084890085b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Switch, single pole double throw"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39873198-0c95-413b-9914-2fc0a294cfdf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB Part #" "C341735"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c0253a7-523c-447c-97ed-21ebaf894c7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.25 -3.5)
+		(end -7.25 -1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8e372961-a7df-4ab6-a901-b382d02f7586")
+	)
+	(fp_line
+		(start -7.25 3.5)
+		(end -7.25 1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "30490f09-da09-4a48-8daa-118d0afe2591")
+	)
+	(fp_line
+		(start -7.05 -3.5)
+		(end 6.95 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e8c639e0-11be-4a36-bcf5-7b41ec0acda9")
+	)
+	(fp_line
+		(start -7.02 3.49)
+		(end 6.98 3.49)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "abed41ff-4f63-4cb7-955f-46afbae6f21e")
+	)
+	(fp_line
+		(start 7.25 -3.5)
+		(end 7.25 -1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d27a435f-2616-4656-a0e1-c12e05473e32")
+	)
+	(fp_line
+		(start 7.25 3.5)
+		(end 7.25 1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "76914eb3-1f06-494e-aea5-e33b497b1b00")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0d6c6eab-1410-4902-8bb6-fc725e445c6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -7.25 0)
+		(size 2.4 2.4)
+		(drill 1.65)
+		(layers "*.Cu" "*.Mask")
+		(uuid "31ff4f6f-c77a-40ce-8e83-97a12786ab87")
+	)
+	(pad "" np_thru_hole circle
+		(at 7.25 0)
+		(size 2.4 2.4)
+		(drill 1.65)
+		(layers "*.Cu" "*.Mask")
+		(uuid "16aac4d2-d753-4543-ab8a-d20bf43d77e9")
+	)
+	(pad "1" thru_hole circle
+		(at -2 -1.25)
+		(size 1.4 1.4)
+		(drill oval 0.7 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "41d3f7b7-f447-473a-af11-486e23d28662")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -1.25)
+		(size 1.4 1.4)
+		(drill oval 0.7 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "abf78d1e-fc17-4602-aa35-cdc77217e157")
+	)
+	(pad "3" thru_hole circle
+		(at 2 -1.25)
+		(size 1.4 1.4)
+		(drill oval 0.7 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a2df5ad8-c011-4f73-9c3c-b276d839b154")
+	)
+	(embedded_fonts no)
+	(model "/Users/stefanopassiglia/Documents/KiCad/8.0/3dmodels/SSSF012100.step"
+		(offset
+			(xyz 0 0 8.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

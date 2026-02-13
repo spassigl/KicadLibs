@@ -1,0 +1,282 @@
+(footprint "RV_Disc_D12mm_W3.9mm_P7.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Varistor, diameter 12mm, width 3.9mm, pitch 7.5mm")
+	(tags "varistor SIOV")
+	(property "Reference" "REF**"
+		(at -4.02 0.76 90)
+		(layer "F.SilkS")
+		(uuid "c239db8d-9abd-442f-bcc1-eac1bfe35b95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Varistor"
+		(at 3.75 -2.25 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ced50296-5254-4ea3-8710-2a57d88225a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a8dc9df-6094-40c6-ac3f-4e9ae5288160")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Voltage dependent resistor"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2e7707f-9b2b-48af-8f85-c7e09339d6c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Name" "kicad_builtin_varistor"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83e3240b-5fc4-472a-ba41-819010ba7309")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "SUBCKT"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c159b9dc-1e55-4531-b199-6b606c65eb22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=A 2=B"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b069693-3d8e-45c4-a990-288ce6a140ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Params" "threshold=1k"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3617d666-78b3-4ebe-a98a-e8b98fc4a17c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1229905-726a-4c56-b894-5da7879f6f66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 9.75 2.65)
+		(end 9.75 -1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ca6d551-75ca-4d3e-bcf0-84deba94e3a5")
+	)
+	(fp_line
+		(start 9.75 2.65)
+		(end -2.25 2.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65b74759-2824-4e1a-b7b4-6a6db05bc14b")
+	)
+	(fp_line
+		(start 9.75 -1.25)
+		(end -2.25 -1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "229e0190-2664-4178-84e5-76438f02edd4")
+	)
+	(fp_line
+		(start -2.25 2.65)
+		(end -2.25 -1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "297516dd-2c8e-47b4-a857-ed752b126852")
+	)
+	(fp_line
+		(start 10 2.9)
+		(end 10 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b56005dd-acb2-4a91-8fda-d2b1f967cd8c")
+	)
+	(fp_line
+		(start 10 2.9)
+		(end -2.5 2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "52b89acb-37da-4ed3-8008-b6b933c4311b")
+	)
+	(fp_line
+		(start 10 -1.5)
+		(end -2.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5c9e846-d88a-4ce3-ac5c-8b0625ce1625")
+	)
+	(fp_line
+		(start -2.5 2.9)
+		(end -2.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd812e38-2d0f-4a17-9c71-52c7230981c1")
+	)
+	(fp_line
+		(start 9.75 2.65)
+		(end 9.75 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db3b1760-6be4-4426-a96a-dc65c9c41bec")
+	)
+	(fp_line
+		(start 9.75 2.65)
+		(end -2.25 2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ce44db6-ce32-4db9-a7df-722a3e4467be")
+	)
+	(fp_line
+		(start 9.75 -1.25)
+		(end -2.25 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c4d12d3-855a-4821-bf83-0c22d74129e9")
+	)
+	(fp_line
+		(start -2.25 2.65)
+		(end -2.25 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "049c9edc-2964-44a7-90c8-ef204a5fa055")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.75 0.7 0)
+		(layer "F.Fab")
+		(uuid "8f0a3f4f-69cd-4c6f-b8e5-2e52241d1497")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 180)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6bad0803-806e-4cb6-9267-c9825eb907fd")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 1.4 180)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f071a7c-c3ee-4119-a180-b16684e110d4")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Varistor.3dshapes/RV_Disc_D12mm_W3.9mm_P7.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

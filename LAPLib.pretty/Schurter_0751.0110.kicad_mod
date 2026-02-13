@@ -1,0 +1,149 @@
+(footprint "Schurter_0751.0110"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Fuse clips 5x20")
+	(property "Reference" "REF**"
+		(at -0.0762 4.4196 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a4d7538c-4df4-49f6-84d1-ba618bc83ee6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "10A"
+		(at 0 -4.7752 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "55fef111-901a-4123-82f7-e041453744a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 9.85 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6d35f28-6885-416f-b7ba-95cdf871a4be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Fuse, small symbol"
+		(at 0 9.85 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23326ce8-285a-4928-bec4-79e0485ce9ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB Part #" "C3207451"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bd4c50bc-2346-4c92-9d85-454b80c9d63a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 11.5 3.05)
+		(end -11.5 -3.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7448a3ee-6510-4bb3-b02c-8324e40341d2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d1cfca88-0fb5-490d-8e18-89af586f80e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -10 0 180)
+		(size 2.4 2.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5665cb9a-f0ea-45c5-9895-ba4eeb973f7d")
+	)
+	(pad "1" thru_hole circle
+		(at -5 0 180)
+		(size 2.4 2.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f4d842da-f7e9-465b-9bad-0e8f0141ea37")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0 180)
+		(size 2.4 2.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "abca2b6f-5486-4371-935d-d7e025732886")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0 180)
+		(size 2.4 2.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ec781554-1335-4250-b990-8160c234b563")
+	)
+	(embedded_fonts no)
+	(model "/Users/stefanopassiglia/Documents/KiCad/8.0/3dmodels/Schurter 0751.0110 v1.step"
+		(offset
+			(xyz 7.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+	(model "/Users/stefanopassiglia/Documents/KiCad/8.0/3dmodels/Schurter 0751.0110 v1.step"
+		(offset
+			(xyz -7.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

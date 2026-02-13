@@ -1,0 +1,287 @@
+(footprint "Converter_ACDC_MeanWell_IRM-10-xx_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "http://www.meanwell.com/webapp/product/search.aspx?prod=IRM-10")
+	(tags "ACDC-Converter 10W   Meanwell IRM-10")
+	(property "Reference" "REF**"
+		(at 18.9575 -13.55 0)
+		(layer "F.SilkS")
+		(uuid "75497b95-190e-410f-a503-d28eeec002fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IRM-10-5"
+		(at 21 15.7 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77ea3223-0433-40ae-8d03-fe4b58a4bac6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85d712db-f685-4745-8b9c-b03b3b674aa0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "5V, 2A, 10W, Isolated, AC-DC, 222A(IRM10)"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52411788-eff8-4bfe-9365-f4bb55b96c8c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB Part #" "C2857903"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8e64c41-fc5c-4150-aa51-db92e9f7f6f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 42.2 14.3)
+		(end 42.2 -11.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61d0541b-0e04-47ca-ac06-e27c82e8c721")
+	)
+	(fp_line
+		(start 42.2 14.3)
+		(end -3.7 14.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c35719f-5952-4e46-93c1-94ff7282c901")
+	)
+	(fp_line
+		(start 42.2 -11.3)
+		(end -3.7 -11.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee01071f-3878-439c-b58b-b60e2b0fe874")
+	)
+	(fp_line
+		(start -3.7 14.3)
+		(end -3.7 -11.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c36cca50-61d9-4866-b9e2-c3031b7cf22a")
+	)
+	(fp_line
+		(start -4 1)
+		(end -4 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f2d5a4e-6bce-4fd2-8ead-a3aae49992f7")
+	)
+	(fp_line
+		(start 42.35 14.45)
+		(end 42.35 -11.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c17aca4-dfda-4837-8b0d-68b8a453281d")
+	)
+	(fp_line
+		(start 42.35 14.45)
+		(end -3.85 14.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "69f84495-543c-405f-afaf-754f8ec8ab59")
+	)
+	(fp_line
+		(start 42.35 -11.45)
+		(end -3.85 -11.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd02c559-6557-4d76-b714-e588d7ab1aa7")
+	)
+	(fp_line
+		(start -3.85 14.45)
+		(end -3.85 -11.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e8757e56-b1be-44d3-8c2c-552903b88676")
+	)
+	(fp_line
+		(start 42.1 14.2)
+		(end 42.1 -11.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ebc1b5c-2a3e-4c8f-a59b-c2fce7e55e63")
+	)
+	(fp_line
+		(start 42.1 14.2)
+		(end -3.6 14.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "14690d40-9f39-44bf-bdf3-cdf532807e55")
+	)
+	(fp_line
+		(start -2.6 0)
+		(end -3.6 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4048680-cbf8-4a60-8c5b-55b5cdc508bc")
+	)
+	(fp_line
+		(start -2.6 0)
+		(end -3.6 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1dca0a61-1829-48b6-9d64-262239f9cded")
+	)
+	(fp_line
+		(start -3.6 14.2)
+		(end -3.6 -11.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30cc634a-d3b1-4665-9400-fc994feda599")
+	)
+	(fp_line
+		(start -3.6 -11.2)
+		(end 42.1 -11.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43e1be44-41b5-4e5f-82ea-5f469bebded0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 22.42 0.48 0)
+		(layer "F.Fab")
+		(uuid "8eb8e8dc-0b3b-4f66-9414-3a733633177c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 180)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8df3d92b-7bc8-49a1-b113-97b7a0365656")
+	)
+	(pad "2" thru_hole circle
+		(at 0 10.75 180)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de845e68-51e2-4878-8d1f-8f8d75302c7d")
+	)
+	(pad "3" thru_hole circle
+		(at 38.5 10.75 180)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a713e20c-c24b-48c0-88ac-4babb74201e3")
+	)
+	(pad "4" thru_hole circle
+		(at 38.5 2.75 180)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9e0f2bc2-2cfc-470d-9125-432455bd9dc2")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Converter_ACDC.3dshapes/Converter_ACDC_MeanWell-IRM-10-xx_THT.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/stefanopassiglia/Documents/KiCad/8.0/3dmodels/IRM-10-5.step"
+		(offset
+			(xyz 19 -1.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
