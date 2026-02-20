@@ -58,7 +58,7 @@
 	(property "JLCPCB Part #" "C91370"
 		(at 0.2 -0.1 180)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "User.1")
 		(hide yes)
 		(uuid "147d9bba-f6a1-43f2-9ecd-ca4dc9855b54")
 		(effects
@@ -125,15 +125,15 @@
 		(uuid "0f8e6f40-f6f5-4df8-9526-41275b821c93")
 	)
 	(embedded_fonts no)
-	(model "/Users/stefanopassiglia/Documents/KiCad/8.0/3dmodels/HF32FA-G[1].stp"
+	(model "/Volumes/Dati Mac/Stefano/Progetti/Kicad Libs/3D Models/HF32FA[1].stp"
 		(offset
-			(xyz 0.2 0 0)
+			(xyz 0.25 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

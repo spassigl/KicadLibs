@@ -43,7 +43,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "SMD pushbutton 14.6mm"
 		(at 0.3 15.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -163,7 +163,7 @@
 		(uuid "acb126fa-c973-488f-997f-95210a2a4178")
 	)
 	(embedded_fonts no)
-	(model "/Users/stefanopassiglia/Documents/KiCad/8.0/3dmodels/SPEF220100.STEP"
+	(model "/Volumes/Dati Mac/Stefano/Progetti/Kicad Libs/3D Models/SPEF220100.step"
 		(offset
 			(xyz 0 0 0)
 		)

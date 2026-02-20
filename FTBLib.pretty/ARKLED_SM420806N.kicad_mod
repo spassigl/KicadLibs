@@ -172,7 +172,7 @@
 		(uuid "4918611d-58f6-4e1b-8626-fdc7bc538373")
 	)
 	(embedded_fonts no)
-	(model "/Users/stefanopassiglia/Documents/KiCad/8.0/3dmodels/SM420806N8-3D.step"
+	(model "/Volumes/Dati Mac/Stefano/Progetti/Kicad Libs/3D Models/SM420806N8.step"
 		(offset
 			(xyz 0 0 0)
 		)

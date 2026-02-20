@@ -1,0 +1,154 @@
+(footprint "WJ128V-5.0-02P-14-00A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Terminalblock PCB")
+	(property "Reference" "REF**"
+		(at 0.6 6.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6fa0eea6-4bac-41b6-9734-41347a5ae400")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "WJ128V-5.0-02P-14-00A"
+		(at 0 7.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "89a7d8ec-e398-49e1-bb44-917b4e8456b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887096039231488 "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "506e9256-4ff9-426c-9067-f3504ea6f5f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Ningbo Kangnex Elec WJ128V-5.0-02P-14-00A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98112096-32d6-4c05-bda8-6eb46ce037dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB Part # " "C8269"
+		(at 0 3.95 0)
+		(layer "User.1")
+		(hide yes)
+		(uuid "b29b6f67-a226-4f2a-a004-04c6d1296d52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.15 -5)
+		(end 4.85 5.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f259b064-299a-4bd0-9d94-038957128a44")
+	)
+	(fp_rect
+		(start -5.55 -5.3)
+		(end 5.2 5.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d210a4ba-8642-49f7-b52c-0c80679d85ad")
+	)
+	(fp_circle
+		(center -2.5 0.15)
+		(end -1.7 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3df4e8f6-ffc1-4c33-a158-5f2499b61e09")
+	)
+	(fp_circle
+		(center 2.5 0.15)
+		(end 3.3 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2696b5bc-ef25-4b48-91a3-6860bb8be802")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.5 -6.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dd359b93-8a93-4645-be44-597dfbe980ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0.15)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc9ddd9b-b720-4740-a49c-8f0c1ba401b0")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0.15)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "01ab2984-cf66-4edc-adda-d1d943993c58")
+	)
+	(embedded_fonts no)
+	(model "/Volumes/Dati Mac/Stefano/Progetti/Kicad Libs/3D Models/WJ128V-5.0-02P-14-00A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

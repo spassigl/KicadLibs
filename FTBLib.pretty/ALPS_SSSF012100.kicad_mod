@@ -180,7 +180,7 @@
 		(uuid "a2df5ad8-c011-4f73-9c3c-b276d839b154")
 	)
 	(embedded_fonts no)
-	(model "/Users/stefanopassiglia/Documents/KiCad/8.0/3dmodels/SSSF012100.step"
+	(model "/Volumes/Dati Mac/Stefano/Progetti/Kicad Libs/3D Models/SSSF012100.step"
 		(offset
 			(xyz 0 0 8.5)
 		)
@@ -188,7 +188,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

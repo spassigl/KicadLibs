@@ -154,7 +154,7 @@
 		(uuid "07f7227d-260b-498d-b260-fb7cda2af58c")
 	)
 	(embedded_fonts no)
-	(model "/Users/stefanopassiglia/Documents/KiCad/8.0/3dmodels/TS-1095PD-A17B3-D2.step"
+	(model "/Volumes/Dati Mac/Stefano/Progetti/Kicad Libs/3D Models/TS-1095PD-A17B3-D2.step"
 		(offset
 			(xyz 0 0 0)
 		)
