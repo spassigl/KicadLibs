@@ -124,18 +124,7 @@
 		(uuid "ec781554-1335-4250-b990-8160c234b563")
 	)
 	(embedded_fonts no)
-	(model "/Users/stefanopassiglia/Documents/KiCad/8.0/3dmodels/Schurter 0751.0110 v1.step"
-		(offset
-			(xyz 7.5 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 0 90)
-		)
-	)
-	(model "/Users/stefanopassiglia/Documents/KiCad/8.0/3dmodels/Schurter 0751.0110 v1.step"
+	(model "/Volumes/Dati Mac/Stefano/Progetti/Kicad Libs/3D Models/Schurter 0751.0110.step"
 		(offset
 			(xyz -7.5 0 0)
 		)
@@ -143,7 +132,18 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 -90)
+			(xyz -90 -0 -90)
+		)
+	)
+	(model "/Volumes/Dati Mac/Stefano/Progetti/Kicad Libs/3D Models/Schurter 0751.0110.step"
+		(offset
+			(xyz 7.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
 		)
 	)
 )
