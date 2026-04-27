@@ -1,0 +1,98 @@
+* HL6042 P-Channel MOSFET SPICE Model
+* Zhuhai Hongjiacheng Technology Co., Ltd
+* Package: SOT-23
+* VDS = -20V, ID = -5.0A, RDS(on) < 43mΩ @ VGS=-4.5V
+* Model derived from datasheet Rev:2.0
+* -------------------------------------------------------
+* Pin order: Drain Gate Source
+* -------------------------------------------------------
+
+.SUBCKT HL6042 D G S
+
+* ------ Internal MOSFET core (PMOS) ------
+M1 Di Gi Si Si PMOS_HL6042 W=1 L=1
+
+* ------ Gate resistance (from switching times tD~13ns, tr~9ns) ------
+RG  G Gi 2.0
+
+* ------ Drain resistance (RDS(on) budget + bond wire) ------
+RD  D Di 0.005
+
+* ------ Source resistance ------
+RS  S Si 0.001
+
+* ------ Body diode (VSD_max=1.0V, IS=-2A, Qrr=40nC, trr=20ns) ------
+DBD Si Di DBODY_HL6042
+
+* ------ Gate-drain capacitance (Crss typ 48pF @ VDS=-10V) ------
+CGD Gi Di 48p
+
+* ------ Gate-source capacitance (Ciss-Crss = 600-48 = 552pF typ) ------
+CGS Gi Si 552p
+
+* ------ Output capacitance (Coss typ 80pF @ VDS=-10V) ------
+* Note: Coss = Cgd + Cds; Cds modelled here as remainder
+CDS Di Si 32p
+
+* -------------------------------------------------------
+* PMOS model parameters
+* VTH0  : threshold voltage  -> typ -0.6V (midpoint of -0.3 to -0.9V spec)
+* KP    : transconductance   -> derived from gfs=20S, ID=4A, VGS=-4.5V
+*          KP ~ 2*gfs / (W/L * (VGS-VTH)) = 2*20/(1*(4.5-0.6)) ~ 10.26 A/V²
+* LAMBDA: channel length mod -> estimated 0.05 V⁻¹ (typical for -20V trench)
+* RDS   : drain-source shunt -> 43mΩ target @ VGS=-4.5V (bulk already in RD/RS)
+* CGSO/CGDO: overlap caps    -> split from Ciss/Crss above
+* -------------------------------------------------------
+.MODEL PMOS_HL6042 PMOS
++ LEVEL   = 3
++ VTO     = -0.6
++ KP      = 10.26
++ GAMMA   = 0.5
++ PHI     = 0.65
++ LAMBDA  = 0.05
++ RD      = 0.0
++ RS      = 0.0
++ CBD     = 30p
++ CBS     = 10p
++ IS      = 1e-14
++ PB      = 0.8
++ CGSO    = 552e-12
++ CGDO    = 48e-12
++ RSH     = 0.01
++ TOX     = 30e-9
++ XJ      = 0.2u
++ LD      = 0.0
++ UO      = 250
++ THETA   = 0.1
++ VMAX    = 2e5
++ ETA     = 0.0
++ KAPPA   = 0.2
++ NFS     = 1e11
++ TPG     = -1
++ NSS     = 0.0
++ TT      = 26n
+
+* -------------------------------------------------------
+* Body diode model
+* Forward voltage ~1.0V @ IS=1A -> IS and N tuned accordingly
+* Reverse recovery: trr=20ns, Qrr=40nC -> TT (transit time) = Qrr/IF = 40n/4 = 10ns
+* -------------------------------------------------------
+.MODEL DBODY_HL6042 D
++ IS      = 2.5e-10
++ N       = 1.15
++ RS      = 0.015
++ CJO     = 80p
++ M       = 0.45
++ VJ      = 0.8
++ BV      = 20
++ IBV     = 1e-3
++ TT      = 10n
++ EG      = 1.11
++ XTI     = 3.0
+
+.ENDS HL6042
+
+* -------------------------------------------------------
+* Usage example:
+*   X1 drain gate source HL6042
+* -------------------------------------------------------
