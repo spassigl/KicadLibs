@@ -1,8 +1,9 @@
-(footprint "Buzzer_MLT-9650"
+(footprint "Buzzer_MLT-9650_copy"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "Active Buzzer (Built-in Driving Circuit) Magnetic 3V~7V 2.7kHz 85dB")
 	(property "Reference" "REF**"
 		(at 3.1 -6.05 0)
 		(unlocked yes)
@@ -40,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" "Buzzers Active Buzzer (Built-in Driving Circuit) Magnetic 3V~7V 2.7kHz 85dB"
+	(property "Description" "Active Buzzer (Built-in Driving Circuit) Magnetic 3V~7V 2.7kHz 85dB"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

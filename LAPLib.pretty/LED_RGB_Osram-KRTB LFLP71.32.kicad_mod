@@ -1,0 +1,149 @@
+(footprint "LED_RGB_Osram-KRTB LFLP71.32"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "OSRAM RGB LED PLCC-6")
+	(property "Reference" "REF**"
+		(at 0.6 -2.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "46bdf750-5911-4686-8966-0eea8846b0a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED_RGB_Osram-KRTB LFLP71.32"
+		(at 0 2.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0a7cce7f-6077-4013-ad5a-639d03869e39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://look.ams-osram.com/m/4c4cd2332720a98/original/KRTB-LFLP71-32.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b549be2-df41-4653-95ac-c4565bbf04d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "OSRAM RGB LED PLCC-6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "546ec24b-91c6-47a8-98ad-6cedda07c1e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 1)
+		(end -1.6 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4c9943e4-06d8-4575-823e-601548535d06")
+	)
+	(fp_line
+		(start -1 1.8)
+		(end -1.6 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "32f868df-f16e-4b62-87b2-bc5fd33a9ec5")
+	)
+	(fp_rect
+		(start -1.35 -1.6)
+		(end 1.35 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5a8f85c2-8b23-4706-affb-837a37c28ddc")
+	)
+	(fp_rect
+		(start -2 -2)
+		(end 1.9 2.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "37e3a44d-44b9-4f7d-9de1-01119fb150d0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c5ea5015-39ef-4688-a8ab-4a6d6d2b8c55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.85 1.05)
+		(size 0.5 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "98551696-32f8-4818-a649-81a477049d32")
+	)
+	(pad "2" smd rect
+		(at 0 1.05)
+		(size 0.5 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5dc1b47c-0769-464a-bf83-8e5b6724ef5a")
+	)
+	(pad "3" smd rect
+		(at 0.85 1.05)
+		(size 0.5 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5b844a84-6f49-4a19-858b-09c0f7138aec")
+	)
+	(pad "4" smd rect
+		(at 0.85 -1.05)
+		(size 0.5 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9e77ffdb-0027-4102-9843-8b728b8b905a")
+	)
+	(pad "5" smd rect
+		(at 0 -1.05)
+		(size 0.5 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "735d8850-492b-430c-bb39-63fa75a71c8c")
+	)
+	(pad "6" smd rect
+		(at -0.85 -1.05)
+		(size 0.5 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "adcd7c18-ff81-4cad-9b2b-2a0d552d85e1")
+	)
+	(embedded_fonts no)
+)

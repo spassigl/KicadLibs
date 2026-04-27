@@ -1,4 +1,4 @@
-(footprint "DORABO_DB2EVC_7.62-2P"
+(footprint "TerminalBlock_DORABO_DB2EVC_7.62-2P"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -80,17 +80,6 @@
 		(uuid "38b35135-c35b-4efe-b572-8213e85dbbd5")
 	)
 	(fp_circle
-		(center 3.8 0)
-		(end 4.8 1.2)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "78c95743-8061-484d-a533-0e5a5c8b7980")
-	)
-	(fp_circle
 		(center -3.8 0)
 		(end -2.7 1.1)
 		(stroke
@@ -100,6 +89,17 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "8d84bd91-fd06-4752-adc8-a98492c53e66")
+	)
+	(fp_circle
+		(center 3.8 0)
+		(end 4.8 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "78c95743-8061-484d-a533-0e5a5c8b7980")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 5 180)

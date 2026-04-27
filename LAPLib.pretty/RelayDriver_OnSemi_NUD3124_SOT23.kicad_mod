@@ -1,9 +1,9 @@
-(footprint "OnSemi_NUD3124_SOT23"
+(footprint "RelayDriver_OnSemi_NUD3124_SOT23"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "SOT-23W http://www.allegromicro.com/~/media/Files/Datasheets/A112x-Datasheet.ashx?la=en&hash=7BC461E058CC246E0BAB62433B2F1ECA104CA9D3")
+	(descr "Load Driver, 1 channel")
 	(tags "SOT-23W")
 	(property "Reference" "REF**"
 		(at 0 3.3125 0)

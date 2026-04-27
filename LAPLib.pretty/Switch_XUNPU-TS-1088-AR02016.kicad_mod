@@ -1,8 +1,9 @@
-(footprint "Switch_TS-1088-AR02016"
+(footprint "Switch_XUNPU-TS-1088-AR02016"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "Tactile Switch SPST 2mm 3.9mm x 2.93mm Surface Mount")
 	(property "Reference" "REF**"
 		(at 0.425 -2.635 0)
 		(layer "F.SilkS")
